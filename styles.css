@@ -1,0 +1,466 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    margin: 0 auto; 
+    
+  }
+  
+#TopLogo{
+    width: 238.89px;
+}
+
+  header {
+      background: #6B3CC9; /* Light gray background */
+    padding: 1rem 2rem; /* Padding around header elements */
+    display: flex;
+    justify-content: space-between; /* Space elements horizontally */
+    align-items: center; /* Align elements vertically */
+  }
+  
+  h1 {
+    font-size: 2rem; /* Adjust font size for heading */
+    font-family: Inter;
+    margin-bottom: 1rem; /* Space below heading */
+  }
+  
+  p {
+    font-size: 1rem; /* Adjust font size for paragraph */
+    line-height: 1.5; /* Line spacing for readability */
+    font-family: Inter;
+  }
+  
+  a {
+      color: #FFFFFF; /* Text color for links */
+    text-decoration: none; /* Remove underline from links */
+    margin-right: 1rem; /* Space between links */
+    margin-bottom: 0.5rem;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left;
+  }
+  
+  a:hover {
+    color: #333; /* Change link color on hover */
+  }
+  
+  ul {
+    list-style: none; /* Remove default list markers */
+    padding: 0;
+    
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+
+
+  }
+  .box {
+    position: absolute;
+    top: 230px;
+    left: 80px;
+    padding: 24px 40px 32px 40px;
+    gap: 20px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+
+
+    
+    background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%);
+  }
+
+  @media (min-width: 1441px) {
+    #backgroundPic {
+      width: 1620px;
+      height: 763px;
+      top: -40px;
+      gap: 0px;
+    }
+    .box {
+      width: 400px;
+      height: 270px;
+    }
+    .button{
+
+      top: -30px;
+      left: -5px;
+    }
+  }
+  
+  
+  @media (min-width: 1201px) {
+    #backgroundPic {
+      width: 1520px;
+    }
+    .box {
+      width: 400px;
+      height: 340px;
+    }
+
+    .button{
+
+      top: -30px;
+      left: -5px;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    #backgroundPic {
+      width: 1200px;
+    }
+    .box {
+      width: 350px;
+      height: 220px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    #backgroundPic {
+      width: 992px;
+    }
+    .box {
+      width: 300px;
+      height: 190px;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .box {
+      width: 400px;
+      height: 350px;
+      top: 100px;
+    }
+
+    .button{
+
+      top: -30px;
+      left: -5px;
+    }
+    .top h3{
+ 
+      right: -700px;
+      
+    }
+    .top img{
+      left: 250px;
+    }
+    .top p{
+    
+      left: 700px;
+      bottom: 300px;
+  }
+  .top .LearnButton{
+    left: 685px;
+    bottom: 280px;
+  }
+
+  .middle img{
+    left: 800px;
+    bottom: 280px;
+  }
+  .middle h3{
+    bottom: 570px;
+    left: 340px;
+  }
+  .middle p{
+    bottom: 570px;
+    left: 340px;
+  }
+  .middle .LearnButton{
+    left: 330px;
+    bottom: 280px;
+  }
+
+  .faq h3{
+    bottom: 570px;
+    left: 500px;
+  }
+
+  .faq p{
+    bottom: 570px;
+    left: 400px;
+  }
+  .footer p{
+    top: 150px;
+   }
+
+   .footer .privacy *{
+
+    
+    top: -10px;
+   }
+  }
+  
+  @media (max-width: 768px) {
+    #backgroundPic {
+      width: 768px;
+    }
+    .box {
+      width: 680px;
+      height: 250px;
+      top: 442px;
+      left: 1px;
+      padding: 10px 30px;
+    }
+
+    .button{
+
+      top: -30px;
+      left: -5px;
+    }
+
+    .top img{
+      top: 270px;
+      left: 150px;
+    }
+    .top h3{
+      top: 150px;
+      left: 200px;
+      
+    }
+    .top p{
+      
+      left: 170px;
+      bottom: -150px;
+  }
+
+  .top .LearnButton{
+    top: 110px;
+    left: 280px;
+  }
+
+    .middle img{
+      top: 50px;
+      left: 170px;
+      z-index: -1;
+    }
+    .middle h3{
+      top: -40px;
+      left: 200px;
+    }
+    .middle p{
+      top: -50px;
+      left: 150px;
+    }
+    
+    .middle .LearnButton{
+      top: -90px;
+      left: 280px;
+    }
+
+    .faq h3{
+      top: -70px;
+      left: 200px;
+    }
+
+   .faq p{
+    top: -70px;
+    left: 100px;
+   }
+
+   .footer p{
+    top: 150px;
+   }
+   .footer .privacy *{
+
+    
+    top: -10px;
+   }
+  }
+  
+.button {
+    margin: 10px;
+    margin-top: 50px;
+    font-family: Inter;
+    background: #F28D35;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-align: left;
+    display: inline-block; /* Add this to make the anchor behave like a block element */
+    text-decoration: none; /* Remove default underline on anchor */
+
+    position: relative;
+    right: 110px;
+    
+}
+
+.LearnButton{
+
+  margin: 10px;
+    margin-top: 50px;
+    font-family: Inter;
+    background: #F28D35;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-align: left;
+    display: inline-block; /* Add this to make the anchor behave like a block element */
+    text-decoration: none; /* Remove default underline on anchor */
+
+
+}
+
+.bodyheader{
+    
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    color: #6B3CC9;
+}
+
+.bodyParagragh{
+    
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+}
+
+.top img{
+    width: 414px;
+    position: relative;
+    
+}
+
+.top h3{
+
+    position: relative;
+    
+    bottom: 300px;
+}
+
+.top p{
+    
+    position: relative;
+    
+}
+
+
+.middle img{
+
+    width: 414px;
+    position: relative;
+    
+    bottom: 250px;
+}
+.middle h3, p{
+
+    position: relative;
+    bottom: 570px;
+    
+}
+
+
+
+.faq h3{
+    position: relative;
+    
+   background-color: #FAF8FF;
+   width: 350px;
+    color: #6B3CC9;
+}
+
+.faq p{
+  background-color: #FAF8FF;
+  width: 550px;
+  
+}
+
+.footer {
+  background-color: #6B3CC9;
+  color: white;
+  margin-top: 20px; /* Adjust the margin-top to bring the footer further up */
+  padding-top: 10px; /* Add padding to the top to reduce the height */
+  padding-bottom: 10px; /* Add padding to the bottom to reduce the height */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between; /* Push items to the far left and far right */
+  align-items: flex-start; /* Align items to the top */
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: flex-start; /* Align items to the start (left) */
+}
+
+.FooterLogo {
+  width: 238.89px; /* Adjust size as needed */
+  margin-bottom: 10px; /* Add space between logo and text */
+}
+
+.Right-Section {
+  display: flex;
+}
+
+.Right-Section div {
+  margin-left: 30px; /* Adjust margin to add space between lists */
+}
+
+.Right-Section h3 {
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 25.41px;
+  text-align: left;
+}
+
+.Right-Section li {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+}
+
+.Right-Section p {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+}
+
+.privacy {
+  text-align: center; /* Center the privacy section */
+  margin-top: 10px; /* Adjust margin-top to reduce the space between footer content and privacy section */
+}
+
+.privacy hr {
+  border: 1px solid white;
+  margin: 20px; /* Add space above and below the line */
+}
+
+.privacy p {
+  margin: 0;
+  
+}
+
